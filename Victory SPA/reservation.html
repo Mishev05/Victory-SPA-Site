@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/reservation.css">
+    <title>Vicory SPA</title>
+</head>
+
+<body>
+    <header>
+        <h1>Victory SPA</h1>
+    </header>
+
+    <nav>
+        <a href="/Index.html">Начало</a>
+        <a href="/accommodation.html">Настаняване</a>
+        <a href="/contacts.html">Контакти</a>
+        <a href="/restaurants.html">Заведения</a>
+        <a href="/spa.html">SPA</a>
+        <a href="/reservation.html">Резервирай</a>
+    </nav>
+    <div class="container">
+        <form action="submit_reservation.php" method="post">
+            <label for="arrival_date">Дата на пристигане:</label>
+            <input type="date" id="arrival_date" name="arrival_date" required>
+            
+            <label for="departure_date">Дата на напускане:</label>
+            <input type="date" id="departure_date" name="departure_date" required>
+
+            <label for="num_people">Брой гости:</label>
+            <input type="number" id="num_people" name="num_people" min="1" required>
+
+            <label for="room_type">Тип стая:</label>
+            <select id="room_type" name="room_type">
+                <option value="deluxe">Делукс</option>
+                <option value="normal">Стандартна</option>
+                <option value="apartment">Апартамент</option>
+            </select>
+
+            <input type="submit" value="Резервирай">
+        </form>
+
+        <div class="photos">
+            <img src="/wine.jpg" alt="Photo 1">
+            <img src="/smile.webp" alt="Photo 2">
+            <img src="/bussines.jpg" alt="Photo 3">
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Victory SPA. Всички права запазени.</p>
+    </footer>
+</body>
+
+</html>

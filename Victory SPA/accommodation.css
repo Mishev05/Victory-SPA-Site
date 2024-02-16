@@ -1,0 +1,66 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #e0d88c;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    width: 97.5%;
+}
+
+nav {
+    background-color: #444;
+    padding: 1em;
+    text-align: center;
+    width: 97.5%;
+}
+
+nav a:hover {
+    color: #50C878;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 2em;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+    position: absolute;
+    bottom: 1;
+    width: 97.5%;
+}
+
+#room-gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.room-image {
+    width: 30%;
+    margin-bottom: 1em;
+}
+
+.room-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 9px solid #ffffff;
+}
+
+#accommodation-info {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 20px;
+    border: 9px solid #5e1515;
+}
