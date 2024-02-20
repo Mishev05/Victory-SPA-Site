@@ -67,20 +67,27 @@ footer {
 section img {
     margin: 0 auto 20px;
     border-radius: 10px;
-    max-width: 100%;
-    height: 400px;
+    max-width: 800px;
+    height: 390px;
 }
-#restaurant-info img{
-    margin: 38px;
-}
-#restaurant-time img{
+
+#restaurant-info img {
     margin: 5px;
+    width: 562px;
 }
-#nightclub-info img{
-    margin: 28px;
+
+#restaurant-time img {
+    margin: 5px;
+    width: 562px;
 }
-h2{
+
+#nightclub-info img {
+    margin: 5px;
+    width: 562px;
+}
+
+h2 {
     text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: xx-large;
 }
