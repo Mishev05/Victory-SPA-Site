@@ -44,3 +44,27 @@ footer {
     color: white;
     padding: 20px 0;
 }
+
+#article-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#news,
+#brass-band,
+#about-velingrad {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 20px;
+    border: 9px solid #5e1515;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text {
+    color: #000000;
+}
+
+h3 {
+    color: #c90000;
+}

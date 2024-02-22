@@ -41,10 +41,11 @@ footer {
     bottom: 1;
     width: 97.5%;
 }
+
 .container {
     padding: 20px;
-    max-width: 800px; 
-    margin: 0 auto; 
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 form {
@@ -76,6 +77,9 @@ input[type="submit"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    width: 745px;
+    height: 50px;
+    font-size: large;
 }
 
 input[type="submit"]:hover {
